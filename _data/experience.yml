@@ -1,0 +1,140 @@
+# Jobs
+# VP of Global Communications
+- company: (주)블록오디세이
+  position: 금융프로덕트팀 • 개발
+  duration: 2021.02 - 2024.09 (3년 8개월)
+  summary:
+    - 디앱(DApp) 및 금융 기관을 위한 맞춤형 인프라 구축과 솔루션 개발을 진행
+    - 약 10명의 팀에서 프론트엔드, 백엔드, 블록체인, QA로 구성된 조직에서 프론트엔드를 담당하며 NFT 마켓플레이스, Web 3.0 티켓팅 서비스, 금융 솔루션 등을 Jira를 통해 개발
+    - 개발 문화 향상을 위해 다양한 내부 포럼을 진행했으며, 코드 리뷰 세션과 코드 컨벤션 수립, 모범 사례 공유, 새로운 기술 도입 방안을 논의하여 팀의 개발 역량을 강화
+  projects:
+    - title: Pro.log | 게임확률로그
+      duration: 2024.07. - 2024.08. (1개월)
+      preview: “확률형 아이템을 프라이빗 블록체인에 성공/실패 로그를 실시간으로 기록하기 위한 <a href="https://spin-stg.blockodyssey.io" target="_blank" rel="noopener noreferrer">웹사이트</a>”
+      items:
+        - main: 내부 피드백을 받기 위한 <b>MVP 버전 개발</b>을 주도 (어드민, 유저)
+          subitems:
+            - 기획자 없이 디자인팀과 협업하여 기획 및 개발을 동시에 진행, 데일리 미팅을 통해 즉각적으로 반영
+        - main: <b>chart.js</b>의 도넛 차트를 활용하여 확률 기반의 데이터 시각화
+      skills:
+        - next.js
+        - typescript
+        - react-query
+        - recoil
+        - tailwind
+        - chart.js
+        - jira
+    - title: Odyssey AssetSquare | STO, 소액투자 플랫폼
+      duration: 2024.02. - 2024.07. (6개월)
+      preview: “항공기, 차량, 선박 등 다양한 자산을 판매 투자 할 수 있는 STO 플랫폼 웹사이트”
+      items:
+        - main: 현재 법적 규제를 고려하여 선행 플랫폼 개발 (어드민, 비즈, 유저 세 개의 사이트 구성)
+          subitems:
+            - 기획자 없이 디자인팀과 협업하여 기획 및 개발을 동시에 진행, 데일리 미팅을 통해 즉각적으로 반영
+        - main: <b>Next.js 14 도입</b>으로 성능과 개발 효율성 향상
+          subitems:
+            - App Router를 활용한 레이아웃 관리 및 라우팅 최적화로 코드 유지보수성 개선
+            - <b>부분 SSR 적용</b>으로 성능 및 사용자 경험 최적화
+            - <b>프록시 패턴</b>을 사용한 API 요청 보안 강화(API Routes를 경유해 요청)
+        - main: <b>react-dnd-treeview</b>를 통해 자산 카테고리 <b>Drag&Drop</b> 구현
+      skills:
+        - next.js
+        - typescript
+        - react-query
+        - recoil
+        - tailwind
+        - jira
+    - title: Makedrop | Web 3.0 NFT 티켓 솔루션
+      duration: 2023.03. - 2023.09. (7개월)
+      preview: “누구나 쉽게 티켓을 제작하고 발행하며 참석자를 관리할 수 있는 개방형 웹사이트”
+      items:
+        - main: Web 3.0 앱에 쉽게 접근할 수 있도록 해주는 <b>Web3Auth</b> 전담하여 개발
+          subitems:
+            - 기존 제공 UI/UX가 기획 의도와 상이하여, Core만 활용해 SDK를 커스터마이징하여 최적화된 사용자 경험 제공
+        - main: 초대장 리스트 데이터를 Excel로 삽입할 때, react-hook-form의 useFieldArray와 연동하여 효율적인 데이터 관리 구현
+        - main: <b>Jira</b>를 통한 QA팀과의 협업으로 다양한 서버 환경(Production, Stage, Develop)에서 프로젝트 관리
+      skills:
+        - next.js
+        - typescript
+        - react-query
+        - redux-toolkit
+        - scss module
+        - web3auth
+        - kakao-maps
+        - jira
+    - title: Tracks | 축구 선수 퍼포먼스 데이터 NFT 거래
+      duration: 2022.08. - 2022.12. (5개월)
+      preview: “K리그 축구팬 대상으로 선수 퍼포먼스 데이터가 담긴 NFT를 판매하는 웹사이트”
+      items:
+        - main: <b>React Query 도입</b>으로 서버-클라이언트 상태 분리 및 비동기 데이터 관리
+          subitems:
+            - 효율적인 <b>QueryKey</b> 사용을 위한 <a href="https://www.notion.so/K-query-key-factory-11356bd5881f80b995f2ebc85c99d0ab?pvs=4" target="_blank" rel="noopener noreferrer">구조화 문서</a> 작성으로 팀원들의 생산성을 높임
+        - main: Metamask를 통한 지갑연결 및 회원가입
+          subitems:
+            - metamask-react 라이브러리의 소스 부분을 커스텀해서 기획에 맞는 유연한 회원가입 흐름 적용
+        - main: NFT 카드 입찰&구매 구현 (Matic, 원화결제)
+          subitems:
+            - Metamask를 통한 Matic 결제 구현
+            - 초기 아임포트를 통해 원화결제를 구현했으나, Metamask와의 충돌 이슈로 <b>토스페이먼츠</b>로 대체하는 과정에서 결제 흐름을 최적화
+            - 토스페이먼츠 SDK를 <a href="https://www.notion.so/useTossPaymentsWrappingFunctions-11356bd5881f801e90ade3cf08d7ee01?pvs=4" target="_blank" rel="noopener noreferrer">커스텀 Hooks</a>로 구현하며 복잡한 결제 로직 간소화
+        - main: <b>Next.js 정적배포 이슈</b>
+          subitems:
+            - 언어별 정적 페이지를 미리 생성하고, 클라이언트 측에서 언어 변경 시 필요한 로직을 추가해 문제 해결
+      skills:
+        - next.js
+        - typescript
+        - react-query
+        - redux-toolkit
+        - scss module
+        - tosspayments
+        - i18n
+    - title: 이벤트 NFT 발행 페이지
+      duration: 2022.06. - 2022.07. (2개월)
+      preview: “이벤트 참여자를 위한 NFT 발행 웹사이트”
+      items:
+        - main: <b>지갑 연결 및 발행 페이지</b> 구현
+        - main: 다양한 이벤트 테스트 및 운영 (<a href="https://daily.hankooki.com/news/articleView.html?idxno=844759" target="_blank" rel="noopener noreferrer">신한40주년이벤트</a>, 번개장터X신한카드, 신한 데모데이 퓨처스랩 2023 아트맵 NFT 이벤트 진행)
+      skills:
+        - react
+        - typescript
+    - title: Revitu | 클레이튼기반 실물자산 NFT 발행 플랫폼
+      duration: 2022.01. - 2022.05. (5개월)
+      preview: “NFT 발행을 통해 개인 자산으로 보유 관리하는 <a href="https://revitu.blockodyssey.io" target="_blank" rel="noopener noreferrer">웹사이트</a>”
+      items:
+        - main: 모바일웹 형태로 모바일 및 PC 지갑 연결 구축
+          subitems:
+            - <b>Kaikas, Klip 지갑</b>을 통한 간편 로그인 및 NFT 발행 기능 구현
+        - main: NFT 발행 화면 구성 및 발행 기능 구현
+        - main: <b>신한플레이 'My NFT'</b> 앱 내장 대응 작업 수행 (WebView)
+        - main: <b>Sentry</b>를 통해 에러 추적 및 모니터링
+      skills:
+        - react
+        - redux-toolkit
+        - scss bem
+        - sentry
+    - title: 하자노 | 집수리 매칭 앱
+      duration: 2021.07. - 2021.12. (5개월)
+      preview: “집수리 전문가 매칭 및 제품 판매 앱”
+      items:
+        - main: React Native v1.0  → v2.0 업그레이드 및 <b>iOS 앱등록</b> 및 유지보수
+          subitems:
+            - iOS 앱 스토어에 신규 앱 등록을 진행하며 등록 절차 및 심사 대응 경험 축적
+            - <a href="https://www.notion.so/iOS-App-11356bd5881f80048033e87897863a51?pvs=4" target="_blank" rel="noopener noreferrer">등록 절차</a>와 <a href="https://www.notion.so/iOS-11356bd5881f806bbb4fdb4a6b77fb3e?pvs=4" target="_blank" rel="noopener noreferrer">리젝 사항</a>을 문서화하여 팀과 공유, 문제 해결 노하우 확립
+        - main: React 클래스형 컴포넌트 → <b>함수형 컴포넌트</b>로 전환
+          subitems:
+            - metamask-react 라이브러리의 소스 부분을 커스텀해서 기획에 맞는 유연한 회원가입 흐름 적용
+        - main: 전문가 회원가입 시 신분증 마스킹 API를 통해 개인정보 마스킹
+        - main: 집수리 전문가와 사용자의 집수리 매칭 기능 고도화 (대화 기능, 상품 결제 추가)
+      skills:
+        - react native
+        - redux-toolkit
+        - iamport
+    - title: Rozeus | 맞춤형 뉴스 서비스
+      duration: 2021.06. - 2021.08. (3개월)
+      preview: “React와 React Native 간 브릿지 통신 WebView 앱”
+      items:
+        - main: <b>WebView 통신</b>을 통해 앱 내 권한 및 기능 제어 (카메라, 위치, 소셜로그인 등)
+        - main: 무작위로 변경되는 <b>Custom Splash</b> 화면 적용
+      skills:
+        - react native
+        - redux-toolkit

@@ -1,0 +1,32 @@
+<!-- and guess where these are defined? Yup, you guessed it: the _config.yml file -->
+{% if site.resume_social_links %}
+<ul class="icon-links">
+  {% if site.resume_social_links.resume_website_url %}
+  <li class="icon-link-item">
+    <b>Email.</b>
+    <a href="mailto:{{ site.resume_contact_email }}" class="icon-link" itemprop="email"
+      >{{site.resume_contact_email}}</a
+    >
+  </li>
+  {% endif %}
+  <!-- GitHub link -->
+  {% if site.resume_social_links.resume_github_url %}
+  <li class="icon-link-item">
+    <b>Github.</b>
+    <a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs">
+      <span>{{ site.resume_social_links.resume_github_url }}</span>
+    </a>
+  </li>
+  {% endif %}
+
+  <!-- Website link -->
+  {% if site.resume_social_links.resume_website_url %}
+  <li class="icon-link-item">
+    <b>Blog.</b>
+    <a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url">
+      <span>{{ site.resume_social_links.resume_website_url }}</span>
+    </a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}

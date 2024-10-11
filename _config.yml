@@ -1,0 +1,57 @@
+# Site settings
+title: '이력서 - 김병준(Byeong Jun, Kim)'
+description: '프론트엔드 개발자 김병준의 이력서입니다.'
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar: 'false'
+resume_name: '김병준'
+resume_title: '프론트엔드 엔지니어'
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email: 'bjkim6415@gmail.com'
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone: '555-7334'
+resume_contact_address: '742 Evergreen Terrace, Springfield'
+
+resume_header_contact_info: '742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com'
+display_header_contact_info: 'false'
+
+resume_header_intro: '<p>안녕하세요, <b>새로운 기술과 개념을 빠르게 습득하고, 이를 효율적으로 정리하는 것</b>에 강점을 가진 프론트엔드 3년차 개발자입니다. 첫 회사로 다닌 스타트업에서는 <b>블록체인 및 Web 3.0</b> 분야에서 활동했고, 복잡한 시스템을 이해하고 최적화하는 데 주력해 왔습니다.
+처음에는 생소했던 이 분야에서 <b>Next.js, TypeScript, React</b>를 사용하여 다양한 프로젝트를 수행하며, 문서화와 지식 공유를 통해 팀의 성장을 이끌어냈습니다. 저는 항상 <b>복잡한 개념과 기술을 정리</b>하고 이를 문서화하여 팀 내에서 쉽게 공유하고 협업하는 문화를 만들어왔습니다.</p>'
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work: 'yes'
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience: true
+resume_section_education: true
+resume_section_projects: true
+resume_section_skills: true
+resume_section_recognition: true
+resume_section_links: true
+resume_section_associations: true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url: 'https://github.com/b0jun'
+  resume_website_url: 'https://spicycookie.me'
+resume_print_social_links: true
+
+# Design settings
+resume_theme: resume
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
