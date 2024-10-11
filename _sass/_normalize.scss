@@ -437,11 +437,14 @@ p {
 }
 
 a {
-  color: #3f72af;
+  color: #435585;
+  transition: all 100ms;
+  text-decoration: none;
+  border-bottom: 1px solid;
   &:visited {
-    color: #3f72af;
+    color: #435585;
   }
   &:hover {
-    color: #112d4e;
+    color: #0d92f4;
   }
 }

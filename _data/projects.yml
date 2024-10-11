@@ -1,16 +1,64 @@
 # Projects
-# uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+- project: BIGFLIX | TV/영화 평점 사이트 (넷플릭스 클론)
+  role: 개인 프로젝트
+  duration: 2020.12. - 2021.01.
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
-
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
+  links:
+    - <a href="https://github.com/b0jun/react-bigflix" target="_blank" rel="noopener noreferrer">Github</a>
+  items:
+    - main: 넷플릭스 UI와 거의 동일하게 구성하려 접근 (TMDB API)
+    - main: 로그인 및 회원가입 기능 구현 (JWT)
+    - main: 회원별 특정 컨텐츠 찜하기 기능
+    - main: 컨텐츠 검색 기능 구현
+    - main: 각종 애니메이션 적용(검색 창, 스크롤에 따른 이벤트 등)
+    - main: 반응형 디자인(웹, 태블릿, 휴대폰)
+    - main: ThemeProvier를 통한 테마 변경(4가지)
+    - main: AWS EC2 배포
+  skills:
+    - react
+    - redux saga
+    - styled-componentss
+    - express
+    - mongodb
+    - aws ec2
+- project: 우산챙겨 | 친구와의 날씨 일정 공유앱
+  role: 팀 프로젝트(3명)
+  duration: 2020.10. - 2020.11.
   # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+  links:
+    - <a href="https://github.com/b0jun/react-bigflix" target="_blank" rel="noopener noreferrer">Github</a>
+  items:
+    - main: Expo의 통합 API로 iOS와 Android에서 동일한 사용자 경험 제공
+      subitems: 일정 등록 시 주소 검색 후 지도에 표기
+      subitems: 위치 권한 처리 차이와 지도 렌더링 문제 해결
+    - main: OpenWeather API를 활용한 기능 구현
+    - main: 일정에 대한 예외 처리
+      subitems: 날씨 데이터가 없는 일정에 대한 대체 처리 추가
+      subitems: 지나간 일정은 이벤트 스케줄러를 통해 자동 삭제 처리
+  skills:
+    - react native(expo)
+    - typescript
+    - redux saga
+    - styled-componentss
+    - s3
+    - ec2
+    - rds
+- project: SpicyCookie | 기술 블로그
+  role: 개인 블로그 제작
+  duration: 2020.07. - 2020.08. (2개월)
+  links:
+    - <a href="https://github.com/b0jun/spicycookie.me" target="_blank" rel="noopener noreferrer">Github</a>
+    - <a href="https://spicycookie.me/Essay/spicycookie" target="_blank" rel="noopener noreferrer">회고</a>
+  url: https://spicycookie.me
+  items:
+    - main: <b>Gatsby.js</b>로 제작한 반응형 정적 웹 블로그
+    - main: <a href="https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world" target="_blank" rel="noopener noreferrer">gatsby-stater-hello-world</a>를 기반으로 전체적인 구조, 디자인 기획
+    - main: 반응형 디자인(웹, 태블릿, 휴대폰)
+    - main: ThemeProvier를 통한 테마 변경(4가지)
+    - main: Netlify 배포
+  skills:
+    - gatsby.js
+    - graphql
+    - styled-components
+    - netlify

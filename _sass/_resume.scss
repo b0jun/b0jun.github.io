@@ -135,7 +135,8 @@
 
   .icon-link {
     display: flex;
-    padding: 4px 6px;
+    // padding: 4px 6px;
+    margin: 4px 6px;
     align-items: center;
     gap: 4px;
 
@@ -190,7 +191,11 @@
   }
 
   .experience-item-company {
-    width: 250px;
+    flex: 1;
+    @include media_larger_than_mobile {
+      width: 250px;
+      flex: none;
+    }
   }
   .experience-item-project-wrap {
     flex: 1;
@@ -275,7 +280,11 @@
   .resume-item-list {
     margin: 0;
   }
-
+  .resume-item-title {
+    a:hover {
+      border-bottom: none;
+    }
+  }
   .resume-item-title,
   .resume-item-details,
   .resume-item-copy,
@@ -286,8 +295,7 @@
       border-bottom: 1px solid;
 
       &:hover {
-        border-bottom: none;
-        color: #9c9c9c;
+        color: #0d92f4;
       }
     }
   }

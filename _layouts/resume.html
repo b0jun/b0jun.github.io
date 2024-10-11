@@ -105,7 +105,7 @@
       <!-- begin Projects -->
       <section class="content-section">
         <header class="section-header">
-          <h2>Projects</h2>
+          <h2>Side Projects</h2>
         </header>
 
         {% for project in site.data.projects %}
@@ -115,8 +115,32 @@
             {% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{
             project.project }}{% endif %}
           </h3>
-          <h4 class="resume-item-details" itemprop="description">{{ project.role }} &bull; {{ project.duration }}</h4>
-          <p class="resume-item-copy">{{ project.description }}</p>
+          <h4 class="resume-item-details" itemprop="description">
+            {{ project.role }} {% if project.links %} {% for link in project.links%} &bull;<span> {{link}} </span>
+            {% endfor %} {% endif %}
+          </h4>
+          <h4 class="resume-item-details">{{ project.duration }}</h4>
+          {% if project.items %}
+          <ul class="experience-item-project-items">
+            {% for item in project.items %}
+            <li>
+              {{ item.main }} {% if item.subitems %}
+              <ul>
+                {% for subitem in item.subitems %}
+                <li>{{ subitem }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </li>
+            {% endfor %}
+          </ul>
+          {% endif %} {% if project.skills %}
+          <ul class="experience-item-project-skills">
+            {% for skill in project.skills %}
+            <li>{{skill}}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </div>
         {% endfor %}
       </section>
@@ -214,22 +238,6 @@
         </div>
       </section>
       <!-- end Interests -->
-      {% endif %} {% if site.resume_section_links %}
-      <!-- begin Links -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Additional Links</h2>
-        </header>
-
-        <!-- <div class="resume-item">
-          <ul class="resume-item-list">
-            {% for link in site.data.links %}
-            <li><a href="{{" link.url }} itemprop="url">{{ link.description }}</a></li>
-            {% endfor %}
-          </ul>
-        </div> -->
-      </section>
-      <!-- end Links -->
       {% endif %} {% if site.resume_print_social_links %}
       <!-- begin Print Social Links -->
       <section class="content-section print-only">
