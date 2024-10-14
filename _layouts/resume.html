@@ -153,8 +153,15 @@
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
+          <h4 class="skills-item-title">{{ skill.skill }}</h4>
           <p class="resume-item-copy">{{ skill.description }}</p>
+          {% if skill.items %}
+          <ul class="experience-item-project-items">
+            {% for item in skill.items %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
         </div>
         {% endfor %}
       </section>
