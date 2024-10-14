@@ -13,7 +13,12 @@
   {% if site.resume_social_links.resume_github_url %}
   <li class="icon-link-item">
     <b>Github.</b>
-    <a href="{{ site.resume_social_links.resume_github_url }}" class="icon-link" itemprop="sameAs">
+    <a
+      href="{{ site.resume_social_links.resume_github_url }}"
+      class="icon-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <span>{{ site.resume_social_links.resume_github_url }}</span>
     </a>
   </li>
@@ -23,7 +28,12 @@
   {% if site.resume_social_links.resume_website_url %}
   <li class="icon-link-item">
     <b>Blog.</b>
-    <a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url">
+    <a
+      href="{{ site.resume_social_links.resume_website_url }}"
+      class="icon-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
       <span>{{ site.resume_social_links.resume_website_url }}</span>
     </a>
   </li>

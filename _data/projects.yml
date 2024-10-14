@@ -8,13 +8,13 @@
   items:
     - main: 서비스 기능 요약
       subitems:
-        - 100명 이상의 대회 참여자 클라이밍 대회 성적 실시간 채점
-        - 실시간 채점을 통해 대회 성적 및 순위를 라이브로 표시
-        - 실제 대회에서 해당 서비스를 운영하며 차질 없이 성과를 거두고 마무리
-    - main: 프로젝트의 설계, 기획부터 개발까지 전 과정을 단독으로 주도하여 완료
-    - main: Next.js API Router를 사용해 클라이언트-서버 통신 구현
-      subitems: Prisma ORM을 통해 데이터베이스 관리
-    - main: 코드입력을 통한 심판 권한 부여 (JWT)
+        - 100명 이상의 클라이밍 대회 참가자 성적 실시간 채점
+        - 실시간 채점을 통한 대회 성적 및 순위 라이브 표시
+        - 실제 대회에서 서비스 성공적 운영 및 완료
+    - main: 프로젝트 설계, 기획부터 개발까지 전 과정 단독 주도 및 완료
+    - main: Next.js API Router를 활용한 클라이언트-서버 통신 구현
+      subitems: Prisma ORM을 통한 데이터베이스 관리
+    - main: 코드 입력을 통한 심판 권한 부여 (JWT)
   skills:
     - next.js
     - typescript
@@ -31,13 +31,13 @@
   items:
     - main: 서비스 기능 요약
       subitems:
-        - 일 평균 100명 이상의 방문자로부터 동의서 및 서명을 수집해 관리
-        - 하나의 계정을 통해 여러 지점 관리
-    - main: 프로젝트의 설계, 기획부터 개발까지 전 과정을 단독으로 주도하여 완료
+        - 일 평균 100명 이상 방문자의 동의서 및 서명 수집 관리
+        - 하나의 계정으로 다중 지점 관리
+    - main: 프로젝트 설계, 기획부터 개발까지 전 과정 단독 주도 및 완료
     - main: Next.js API Router를 사용해 클라이언트-서버 통신 구현
       subitems: Prisma ORM을 통해 데이터베이스 관리
-    - main: 운영 중인 서비스에서 Prisma 스키마 변경으로 인한 데이터 손실 위험
-      subitems: Prisma Migrate를 활용해 운영 중인 서비스에서 스키마 변경 시 발생할 수 있는 데이터 손실 위험을 안전하게 해결
+    - main: 운영 중 서비스의 Prisma 스키마 변경으로 인한 데이터 손실 위험 해결
+      subitems: Prisma Migrate를 활용해 스키마 변경 시 발생 가능한 데이터 손실 위험 안전하게 해결
   skills:
     - next.js
     - typescript
@@ -46,7 +46,7 @@
     - prisma
     - postgresql
 
-- project: KOTEN | 측량장비 A/S 서비스 어드민 앱
+- project: KOTEN
   role: 팀 프로젝트(3명) • 프론트엔트
   duration: 2023.01. - 2023.04. (4개월)
   # url: "#"
@@ -54,29 +54,29 @@
     - <a href="https://play.google.com/store/apps/details?id=com.kotenapp&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">PlayStore</a>
     - <a href="https://xd.adobe.com/view/f091ef04-8e76-4fe9-947a-a003dcb7916c-a5c2/grid" target="_blank" rel="noopener noreferrer">XD Design</a>
   items:
-    - main: 백엔드 2명, 프론트 1명의 구성으로 팀을 이뤄 진행
-      subitems: 앱 개발 및 배포를 담당했으며, Android & iOS 동시 개발 (현재는 Android만 유지보수)
+    - main: 백엔드 2명, 프론트엔드 1명으로 구성된 팀 프로젝트
+      subitems: 앱 개발 및 배포 담당, Android & iOS 동시 개발 (현재 Android만 유지보수)
     - main: 전국 지점 관리 기능 구현
-      subitems: 재고, 수리, 고객, 거래치 등 각종 업무에 대한 관리 기능
+      subitems: 재고, 수리, 고객, 거래처 등 다양한 업무 관리 기능
   skills:
     - react native
     - typescript
     - react-query
     - redux-toolkit
-- project: BIGFLIX | TV/영화 평점 사이트 (넷플릭스 클론)
+- project: BIGFLIX
   role: 개인 프로젝트
   duration: 2020.12. - 2021.01. (2개월)
   # url: "#"
   links:
     - <a href="https://github.com/b0jun/react-bigflix" target="_blank" rel="noopener noreferrer">Github(Readme)</a>
   items:
-    - main: 넷플릭스 UI와 거의 동일하게 구성하려 접근 (TMDB API)
+    - main: 넷플릭스 UI와 유사한 구성 (TMDB API 활용)
     - main: 로그인 및 회원가입 기능 구현 (JWT)
-    - main: 회원별 특정 컨텐츠 찜하기 기능
+    - main: 회원별 컨텐츠 찜하기 기능
     - main: 컨텐츠 검색 기능 구현
-    - main: 다양한 애니메이션 적용(검색 창, 스크롤에 따른 이벤트 등)
-    - main: 반응형 디자인(웹, 태블릿, 휴대폰)
-    - main: ThemeProvier를 통한 테마 변경(4가지)
+    - main: 다양한 애니메이션 적용 (검색창, 스크롤 이벤트 등)
+    - main: 반응형 디자인 (웹, 태블릿, 모바일)
+    - main: ThemeProvider를 통한 테마 변경 (4가지)
     - main: AWS EC2 배포
   skills:
     - react
@@ -85,21 +85,21 @@
     - express
     - mongodb
     - aws ec2
-- project: 우산챙겨 | 친구와의 날씨 일정 공유앱
+- project: 우산챙겨
   role: 팀 프로젝트(3명) • 프론트엔드
   duration: 2020.10. - 2020.11. (1개월)
   # url: "#"
   links:
-    - <a href="https://github.com/b0jun/react-bigflix" target="_blank" rel="noopener noreferrer">Github(Readme)</a>
+    - <a href="https://github.com/b0jun/bringtheumbrella-client" target="_blank" rel="noopener noreferrer">Github(Readme)</a>
   items:
-    - main: 백엔드 2명, 프론트 1명의 구성으로 팀을 이뤄 진행
-      subitems: 팀 내 협업을 통해 프로젝트의 프론트엔드 부분을 주도적으로 개발
-    - main: Expo의 통합 API로 iOS와 Android에서 동일한 사용자 경험 제공
+    - main: 백엔드 2명, 프론트엔드 1명으로 구성된 팀 프로젝트
+      subitems: 프론트엔드 파트 주도적 개발
+    - main: Expo의 통합 API로 iOS와 Android에서 일관된 사용자 경험 제공
       subitems: 일정 등록 시 주소 검색 후 지도에 표기
       subitems: 위치 권한 처리 차이 및 지도 렌더링 문제 해결
     - main: OpenWeather API를 활용한 실시간 날씨 데이터 연동
-      subitems: 사용자가 등록한 일정에 해당하는 날씨 정보를 제공
-    - main: 일정에 대한 예외 처리
+      subitems: 사용자 등록 일정에 맞는 날씨 정보 제공
+    - main: 일정 관리 예외 처리
       subitems: 날씨 데이터가 없는 일정에 대해 대체 데이터 처리 로직 추가
       subitems: 이벤트 스케줄러를 통해 지나간 일정 자동 삭제 기능 구현
   skills:
@@ -110,7 +110,7 @@
     - s3
     - ec2
     - rds
-- project: SpicyCookie | 기술 블로그
+- project: Blog
   role: 개인 블로그 제작
   duration: 2020.07. - 2020.08. (2개월)
   links:
@@ -118,10 +118,11 @@
     - <a href="https://spicycookie.me/Essay/spicycookie" target="_blank" rel="noopener noreferrer">회고</a>
   url: https://spicycookie.me
   items:
+    - main: <a href="https://spicycookie.me" target="_blank" rel="noopener noreferrer">spicycookie.me</a>에서 개인 기술 블로그 운영 중
     - main: <b>Gatsby.js</b>로 제작한 반응형 정적 웹 블로그
     - main: <a href="https://www.gatsbyjs.com/starters/gatsbyjs/gatsby-starter-hello-world" target="_blank" rel="noopener noreferrer">gatsby-stater-hello-world</a>를 기반으로 전체적인 구조, 디자인 기획
-    - main: 반응형 디자인(웹, 태블릿, 휴대폰)
-    - main: ThemeProvier를 통한 테마 변경(4가지)
+    - main: 반응형 디자인 (웹, 태블릿, 모바일)
+    - main: ThemeProvider를 통한 테마 변경 (4가지)
     - main: Netlify를 통한 배포 및 관리
   skills:
     - gatsby.js
