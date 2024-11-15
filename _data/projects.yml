@@ -52,11 +52,10 @@
   duration: 2023.01. - 2023.04. (4개월)
   # url: "#"
   links:
-    - <a href="https://play.google.com/store/apps/details?id=com.kotenapp&pcampaignid=web_share" target="_blank" rel="noopener noreferrer">PlayStore</a>
     - <a href="https://xd.adobe.com/view/f091ef04-8e76-4fe9-947a-a003dcb7916c-a5c2/grid" target="_blank" rel="noopener noreferrer">XD Design</a>
   items:
     - main: 백엔드 2명, 프론트엔드 1명으로 구성된 팀 프로젝트
-      subitems: 앱 개발 및 배포 담당, Android & iOS 동시 개발 (현재 Android만 유지보수)
+      subitems: 앱 개발 및 배포 담당, Android & iOS 동시 개발
     - main: 전국 지점 관리 기능 구현
       subitems: 재고, 수리, 고객, 거래처 등 다양한 업무 관리 기능
   skills:
