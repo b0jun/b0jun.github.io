@@ -2,7 +2,7 @@
 - project: 클라이밍 대회 채점 시스템
   role: 개인 프로젝트
   duration: 2024.08. - 2024.09. (1개월)
-  url: "https://dolmenge.vercel.app/dolmenge_jeonpo/pass"
+  # url: "https://dolmenge.vercel.app/dolmenge_jeonpo/pass"
   links:
     - <a href="https://github.com/b0jun/dolparty" target="_blank" rel="noopener noreferrer">Github(Readme)</a>
     - <a href="https://spicycookie.me/Essay/dolparty" target="_blank" rel="noopener noreferrer">회고</a>
