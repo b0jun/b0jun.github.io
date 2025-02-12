@@ -29,6 +29,7 @@
   url: "https://dolmenge.vercel.app/dolmenge_jeonpo/pass"
   links:
     - <a href="https://github.com/b0jun/climbing-pass" target="_blank" rel="noopener noreferrer">Github(Readme)</a>
+    - <a href="https://spicycookie.me/Essay/climbing_pass" target="_blank" rel="noopener noreferrer">회고</a>
   items:
     - main: 서비스 기능 요약
       subitems:
