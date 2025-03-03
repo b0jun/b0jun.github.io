@@ -10,12 +10,10 @@
   projects:
     - title: Pro.log
       duration: 2024.07. - 2024.08. (1개월)
-      preview: “게임 확률형 아이템의 성공/실패 로그를 프라이빗 블록체인에 실시간으로 기록하는 <a href="https://spin-stg.blockodyssey.io" target="_blank" rel="noopener noreferrer">웹사이트</a>”
+      preview: “게임 확률 로그 웹사이트”
       items:
-        - main: 내부 피드백을 받기 위한 <b>MVP 버전 개발</b> 주도 (어드민, 유저)
-          subitems:
-            - 기획자 없이 디자인팀과 협업하여 기획 및 개발 동시 진행, 데일리 미팅을 통한 즉각적인 피드백 반영
-        - main: <b>chart.js</b>를 활용한 다양한 확률 기반 데이터 시각화
+        - main: <b>Chart.js</b>로 데이터 시각화, 디자인팀과 협업해 기획-개발 동시 진행.
+        - main: 디자인팀과 협업해 기획-개발 동시 진행.
       skills:
         - next.js
         - typescript
@@ -26,13 +24,11 @@
         - jira
     - title: Odyssey AssetSquare
       duration: 2024.02. - 2024.07. (6개월)
-      preview: “항공기, 차량, 선박 등 다양한 자산의 판매 및 투자가 가능한 STO 플랫폼 웹사이트”
+      preview: “STO 플랫폼(어드민, 비즈, 유저) 개발”
       items:
-        - main: 현행 법적 규제를 고려한 선행 플랫폼 개발 (어드민, 비즈, 유저 3개 사이트 구성)
-        - main: <b>Next.js 14 도입</b>을 통한 성능 및 개발 효율성 향상
+        - main: <b>Next.js App Router</b>을 통한 성능 및 개발 효율성 향상
           subitems:
-            - App Router를 활용한 레이아웃 관리 및 라우팅 최적화로 코드 유지보수성 개선
-            - <b>부분 SSR 적용</b>으로 성능 및 사용자 경험 최적화
+            - 서버 액션을 통한 통신 간소화
             - <b>프록시 패턴</b>을 사용한 API 요청 보안 강화(API Routes를 경유한 요청)
         - main: <b>react-dnd-treeview</b>를 활용한 자산 카테고리 <b>Drag&Drop</b> 기능 구현
       skills:
@@ -44,13 +40,13 @@
         - jira
     - title: Makedrop
       duration: 2023.03. - 2023.09. (7개월)
-      preview: “누구나 쉽게 티켓을 제작, 발행하고 참석자를 관리할 수 있는 개방형 웹사이트”
+      preview: “Web 3.0 티켓팅 웹사이트”
       items:
-        - main: Web 3.0 앱 접근성 향상을 위한 <b>Web3Auth</b> 전담 개발
+        - main: Web3Auth 커스터마이징으로 접근성 개선
           subitems:
             - 기존 UI/UX가 기획 의도와 상이하여, Core만 활용해 SDK를 커스터마이징하여 최적화된 사용자 경험 제공
         - main: react-hook-form의 useFieldArray와 연동하여 Excel 초대장 리스트 데이터의 효율적인 관리 구현
-        - main: <b>Jira</b>를 활용한 QA팀과의 협업으로 다양한 서버 환경(Production, Stage, Develop)에서 프로젝트 관리
+        - main: <b>Jira</b>를 활용한 QA팀과의 협업으로 다양한 서버 환경에서 프로젝트 관리
       skills:
         - next.js
         - typescript
@@ -62,19 +58,16 @@
         - jira
     - title: Tracks
       duration: 2022.08. - 2022.12. (5개월)
-      preview: “K리그 축구팬 대상으로 선수 퍼포먼스 데이터가 담긴 NFT를 판매하는 웹사이트”
+      preview: “K리그 NFT 판매 웹사이트”
       items:
-        - main: <b>React Query 도입</b>으로 서버-클라이언트 상태 분리 및 비동기 데이터 관리 개선
+        - main: <b>React Query 도입</b>으로 상태 관리 개선
           subitems:
             - 효율적인 <b>QueryKey</b> 사용을 위한 <a href="https://www.notion.so/K-query-key-factory-11356bd5881f80b995f2ebc85c99d0ab?pvs=4" target="_blank" rel="noopener noreferrer">구조화 문서</a> 작성으로 팀 생산성 향상
-        - main: Metamask를 통한 지갑 연결 및 회원가입 구현
+        - main: Metamask 기반 결제 구현
           subitems:
-            - metamask-react 라이브러리 소스를 커스터마이징하여 기획에 맞는 유연한 회원가입 흐름 구현
-        - main: NFT 카드 입찰 및 구매 기능 구현 (Matic, 원화결제)
-          subitems:
-            - Metamask를 통한 Matic 결제 구현
+            - metamask-react 라이브러리 소스를 커스터마이징하여 기획에 맞는 유연한 회원가입 흐름 구성
+            - Metamask를 통한 Matic 결제 적용
             - 초기 아임포트를 통한 원화결제 구현 후, Metamask와의 충돌 이슈로 <b>토스페이먼츠</b>로 전환하며 결제 흐름 최적화
-            - 토스페이먼츠 SDK를 <a href="https://www.notion.so/useTossPaymentsWrappingFunctions-11356bd5881f801e90ade3cf08d7ee01?pvs=4" target="_blank" rel="noopener noreferrer">커스텀 Hooks</a>로 구현하며 복잡한 결제 로직 간소화
         - main: <b>Next.js 정적배포 이슈</b>
           subitems:
             - 언어별 정적 페이지 사전 생성 및 클라이언트 측 언어 변경 로직 추가로 문제 해결
@@ -88,7 +81,7 @@
         - i18n
     - title: 이벤트 NFT 발행 페이지
       duration: 2022.06. - 2022.07. (2개월)
-      preview: “이벤트 참여자를 위한 NFT 발행 웹사이트”
+      # preview: “이벤트 NFT 발행 웹사이트”
       items:
         - main: <b>지갑 연결 및 발행 페이지</b> 구현
         - main: 다양한 이벤트 테스트 및 운영 (<a href="https://daily.hankooki.com/news/articleView.html?idxno=844759" target="_blank" rel="noopener noreferrer">신한40주년이벤트</a>, 번개장터X신한카드, 신한 데모데이 퓨처스랩 2023 아트맵 NFT 이벤트 진행)
@@ -97,12 +90,11 @@
         - typescript
     - title: Revitu
       duration: 2022.01. - 2022.05. (5개월)
-      preview: “NFT 발행을 통해 개인 자산을 보유 관리하는 <a href="https://revitu.blockodyssey.io" target="_blank" rel="noopener noreferrer">웹사이트</a>”
+      preview: “NFT 자산 관리 <a href="https://revitu.blockodyssey.io" target="_blank" rel="noopener noreferrer">웹사이트</a>”
       items:
         - main: 모바일 및 PC 지갑 연결을 위한 모바일웹 구축
           subitems:
             - <b>Kaikas, Klip 지갑</b>을 통한 간편 로그인 및 NFT 발행 기능 구현
-        - main: NFT 발행 화면 구성 및 기능 구현
         - main: <b>신한플레이 'My NFT'</b> 앱 내장 대응 작업 수행 (WebView)
         - main: <b>Sentry</b>를 통한 에러 추적 및 모니터링
       skills:
@@ -114,11 +106,10 @@
       duration: 2021.07. - 2021.12. (5개월)
       preview: “집수리 전문가 매칭 및 제품 판매 앱”
       items:
-        - main: React Native v1.0  → v2.0 업그레이드 및 <b>iOS 앱등록</b> 및 유지보수
+        - main: 앱 업그레이드 및 <b>iOS 앱등록</b> 및 유지보수
           subitems:
             - iOS 앱 스토어 신규 앱 등록 절차 및 심사 대응 경험 축적
             - <a href="https://www.notion.so/iOS-App-11356bd5881f80048033e87897863a51?pvs=4" target="_blank" rel="noopener noreferrer">등록 절차</a>와 <a href="https://www.notion.so/iOS-11356bd5881f806bbb4fdb4a6b77fb3e?pvs=4" target="_blank" rel="noopener noreferrer">리젝 사항</a> 문서화 및 팀 공유, 문제 해결 노하우 확립
-        - main: React 클래스형 컴포넌트 → <b>함수형 컴포넌트</b> 전환
         - main: 전문가 회원가입 시 신분증 마스킹 API를 통한 개인정보 보호
         - main: 집수리 전문가와 사용자 간 매칭 기능 고도화 (대화 기능, 상품 결제 추가)
       skills:
@@ -129,8 +120,8 @@
       duration: 2021.06. - 2021.08. (3개월)
       preview: “React와 React Native 간 브릿지 통신 WebView 앱”
       items:
-        - main: <b>WebView 통신</b>을 통해 앱 내 권한 및 기능 제어 (카메라, 위치, 소셜로그인 등)
-        - main: 무작위로 변경되는 <b>Custom Splash</b> 화면 적용
+        - main: <b>WebView 통신</b>을 통해 앱 내 권한 및 기능 제어
+        - main: <b>Custom Splash</b> 화면 적용
       skills:
         - react native
         - redux-toolkit
