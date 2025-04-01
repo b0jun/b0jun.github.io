@@ -1,7 +1,7 @@
 # Projects
 - project: 전자동의서 시스템
   role: 개인 프로젝트
-  duration: 2023.10. - 2024.05. (7개월)
+  duration: 2023.10. - (진행중)
   url: "https://dolmenge.vercel.app/ko/dolmenge_jeonpo/pass"
   links:
     - <a href="https://github.com/b0jun/climbing-pass" target="_blank" rel="noopener noreferrer">Github(Readme)</a>
@@ -43,7 +43,7 @@
     - main: 프로젝트 설계, 기획부터 개발까지 전 과정 단독 주도 및 완료
     - main: Next.js API Router를 활용한 클라이언트-서버 통신 구현
       subitems: Prisma ORM을 통한 데이터베이스 관리
-    - main: 코드 입력을 통한 심판 권한 부여 (JWT)
+    - main: 코드 입력을 통한 심판 권한 부여
   skills:
     - next.js
     - typescript
