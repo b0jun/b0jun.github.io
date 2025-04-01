@@ -36,6 +36,7 @@
         - typescript
         - react-query
         - recoil
+        - react-hook-form
         - tailwind
         - jira
     - title: Makedrop
@@ -45,13 +46,14 @@
         - main: Web3Auth 커스터마이징으로 접근성 개선
           subitems:
             - 기존 UI/UX가 기획 의도와 상이하여, Core만 활용해 SDK를 커스터마이징하여 최적화된 사용자 경험 제공
-        - main: react-hook-form의 useFieldArray와 연동하여 Excel 초대장 리스트 데이터의 효율적인 관리 구현
+        - main: react-hook-form의 useFieldArray 데이터와 Excel 데이터를 연동하여 초대장 리스트 구현
         - main: <b>Jira</b>를 활용한 QA팀과의 협업으로 다양한 서버 환경에서 프로젝트 관리
       skills:
         - next.js
         - typescript
         - react-query
         - redux-toolkit
+        - react-hook-form
         - scss module
         - web3auth
         - kakao-maps

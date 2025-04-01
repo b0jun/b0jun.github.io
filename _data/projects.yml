@@ -1,4 +1,32 @@
 # Projects
+- project: 전자동의서 시스템
+  role: 개인 프로젝트
+  duration: 2023.10. - 2024.05. (7개월)
+  url: "https://dolmenge.vercel.app/ko/dolmenge_jeonpo/pass"
+  links:
+    - <a href="https://github.com/b0jun/climbing-pass" target="_blank" rel="noopener noreferrer">Github(Readme)</a>
+    - <a href="https://spicycookie.me/Essay/climbing_pass" target="_blank" rel="noopener noreferrer">회고</a>
+  items:
+    - main: 서비스 기능 요약
+      subitems:
+        - 일 평균 100명 이상 방문자의 동의서 및 서명 수집 관리
+        - 하나의 계정으로 다중 지점 관리
+    - main: 프로젝트 설계, 기획부터 개발까지 전 과정 단독 주도 및 완료
+    - main: Next.js v15, Server Actions 기반 데이터 패칭 및 클라이언트 렌더링
+    - main: Prisma ORM을 통해 데이터베이스 관리
+
+  skills:
+    - next.js
+    - typescript
+    - react-query
+    - react-hook-form
+    - node.js
+    - prisma
+    - postgresql
+    - vercel
+    - blob
+
+
 - project: 클라이밍 대회 운영 시스템
   role: 개인 프로젝트
   duration: 2024.08. - 2024.09. (1개월)
@@ -16,30 +44,6 @@
     - main: Next.js API Router를 활용한 클라이언트-서버 통신 구현
       subitems: Prisma ORM을 통한 데이터베이스 관리
     - main: 코드 입력을 통한 심판 권한 부여 (JWT)
-  skills:
-    - next.js
-    - typescript
-    - react-query
-    - node.js
-    - prisma
-    - postgresql
-- project: 클라이밍 전자동의서 시스템
-  role: 개인 프로젝트
-  duration: 2023.10. - 2024.05. (7개월)
-  url: "https://dolmenge.vercel.app/dolmenge_jeonpo/pass"
-  links:
-    - <a href="https://github.com/b0jun/climbing-pass" target="_blank" rel="noopener noreferrer">Github(Readme)</a>
-    - <a href="https://spicycookie.me/Essay/climbing_pass" target="_blank" rel="noopener noreferrer">회고</a>
-  items:
-    - main: 서비스 기능 요약
-      subitems:
-        - 일 평균 100명 이상 방문자의 동의서 및 서명 수집 관리
-        - 하나의 계정으로 다중 지점 관리
-    - main: 프로젝트 설계, 기획부터 개발까지 전 과정 단독 주도 및 완료
-    - main: Next.js API Router를 사용해 클라이언트-서버 통신 구현
-      subitems: Prisma ORM을 통해 데이터베이스 관리
-    - main: 운영 중 서비스의 Prisma 스키마 변경으로 인한 데이터 손실 위험 해결
-      subitems: Prisma Migrate를 활용해 스키마 변경 시 발생 가능한 데이터 손실 위험 안전하게 해결
   skills:
     - next.js
     - typescript
