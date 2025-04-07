@@ -2,7 +2,7 @@
 - project: 전자동의서 시스템
   role: 개인 프로젝트
   duration: 2023.10. - (진행중)
-  url: "https://dolmenge.vercel.app/ko/dolmenge_jeonpo/pass"
+  url: "https://dolmenge.vercel.app/ko/gyms/dolmenge_jeonpo/pass"
   links:
     - <a href="https://github.com/b0jun/climbing-pass" target="_blank" rel="noopener noreferrer">Github(Readme)</a>
     - <a href="https://spicycookie.me/Essay/climbing_pass" target="_blank" rel="noopener noreferrer">회고</a>
