@@ -2,7 +2,7 @@
 - project: 전자동의서 시스템
   role: 개인 프로젝트
   duration: 2023.10. - (진행중)
-  url: "https://dolmenge.vercel.app/ko/gyms/dolmenge_jeonpo/pass"
+  url: "https://dolmenge.vercel.app/ko/gyms/test_gym/pass"
   links:
     - <a href="https://github.com/b0jun/climbing-pass" target="_blank" rel="noopener noreferrer">Github(Readme)</a>
     - <a href="https://spicycookie.me/Essay/climbing_pass" target="_blank" rel="noopener noreferrer">회고</a>
@@ -11,12 +11,13 @@
       subitems:
         - 일 평균 100명 이상 방문자의 동의서 및 서명 수집 관리
         - 하나의 계정으로 다중 지점 관리
-    - main: 프로젝트 설계, 기획부터 개발까지 전 과정 단독 주도 및 완료
-    - main: Next.js v15, Server Actions 기반 데이터 패칭 및 클라이언트 렌더링
+        - 이용자들의 시설 이용전 책임 면제 동의서를 디지털화하여 관리
+    - main: 실제 센터에서 운영 데이터를 시각화하는 통계/차트 대시보드를 기획하고 구현
+    - main: Next.js App Router 환경에서 스트리밍 기반의 SSR(Suspense + Server Component) 구조를 활용해 UX와 성능을 동시에 개선
     - main: Prisma ORM을 통해 데이터베이스 관리
 
   skills:
-    - next.js
+    - next.js(v15)
     - typescript
     - react-query
     - react-hook-form
@@ -25,6 +26,7 @@
     - postgresql
     - vercel
     - blob
+    - recharts
 
 
 - project: 클라이밍 대회 운영 시스템
@@ -45,7 +47,7 @@
       subitems: Prisma ORM을 통한 데이터베이스 관리
     - main: 코드 입력을 통한 심판 권한 부여
   skills:
-    - next.js
+    - next.js(v14)
     - typescript
     - react-query
     - node.js
