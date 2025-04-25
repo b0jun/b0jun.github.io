@@ -26,10 +26,8 @@
       duration: 2024.02. - 2024.07. (6개월)
       preview: “STO 플랫폼(어드민, 비즈, 유저) 개발”
       items:
-        - main: <b>Next.js App Router</b>을 통한 성능 및 개발 효율성 향상
-          subitems:
-            - 서버 액션을 통한 통신 간소화
-            - <b>프록시 패턴</b>을 사용한 API 요청 보안 강화(API Routes를 경유한 요청)
+        - main: 복잡한 도메인 모델(부동산, 항공기, 예술품 등)과 결제/정산 로직을 반영한 안정적인 UI 설계
+        - main: 백엔드 API 스펙 변경으로 인한 타입 불일치 문제를 해결하기 위해 공통 요청/응답 스키마와 도메인 모델 공유 구조 도입
         - main: <b>react-dnd-treeview</b>를 활용한 자산 카테고리 <b>Drag&Drop</b> 기능 구현
       skills:
         - next.js
