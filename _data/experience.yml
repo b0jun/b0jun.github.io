@@ -15,7 +15,7 @@
         - main: <b>Chart.js</b>로 데이터 시각화, 디자인팀과 협업해 기획-개발 동시 진행.
         - main: 디자인팀과 협업해 기획-개발 동시 진행.
       skills:
-        - next.js
+        - next.js(v14)
         - typescript
         - react-query
         - recoil
@@ -30,7 +30,7 @@
         - main: 백엔드 API 스펙 변경으로 인한 타입 불일치 문제를 해결하기 위해 공통 요청/응답 스키마와 도메인 모델 공유 구조 도입
         - main: <b>react-dnd-treeview</b>를 활용한 자산 카테고리 <b>Drag&Drop</b> 기능 구현
       skills:
-        - next.js
+        - next.js(v14)
         - typescript
         - react-query
         - recoil
@@ -47,7 +47,7 @@
         - main: react-hook-form의 useFieldArray 데이터와 Excel 데이터를 연동하여 초대장 리스트 구현
         - main: <b>Jira</b>를 활용한 QA팀과의 협업으로 다양한 서버 환경에서 프로젝트 관리
       skills:
-        - next.js
+        - next.js(v13)
         - typescript
         - react-query
         - redux-toolkit
@@ -72,7 +72,7 @@
           subitems:
             - 서버가 없는 배포환경으로 인해 런타임 다국어 처리가 불가능 → 언어별 정적 페이지를 사전 생성해서 해결
       skills:
-        - next.js
+        - next.js(v13)
         - typescript
         - react-query
         - redux-toolkit
